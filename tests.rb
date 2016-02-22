@@ -26,10 +26,13 @@ class WeatherTest < Minitest::Test
     assert_equal "Durham, NC", c.location
   end
 
-  # def test_03_return_temperature_for_zip
-  #
-  # end
-  #
+  def test_03_return_ten_day_forecast
+    f = Forecast.new(27704)
+    assert f.forecast_ten_days
+  end
+
+
+
   # $mock_inputs.clear
   # $mock_inputs << "A1"
   # $mock_inputs << "Down"
