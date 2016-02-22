@@ -1,0 +1,3 @@
+class TenDayForcast
+
+end
