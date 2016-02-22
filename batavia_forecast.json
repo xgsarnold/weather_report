@@ -1,0 +1,962 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast10day": 1
+  }
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"12:05 PM CST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Monday",
+		"fcttext":"Cloudy. High 44F. Winds light and variable.",
+		"fcttext_metric":"Mainly cloudy. A few peeks of sunshine possible. High 7C. Winds light and variable.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Monday Night",
+		"fcttext":"A few clouds. Low 29F. Winds light and variable.",
+		"fcttext_metric":"A few clouds. Low -2C. Winds light and variable.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Tuesday",
+		"fcttext":"Partly cloudy skies in the morning will give way to cloudy skies during the afternoon. High 44F. Winds ENE at 5 to 10 mph.",
+		"fcttext_metric":"Some sun in the morning with increasing clouds during the afternoon. High 6C. Winds ENE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Mostly cloudy. Low 31F. Winds NNE at 10 to 20 mph.",
+		"fcttext_metric":"Mostly cloudy skies. Low -1C. Winds NNE at 15 to 30 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":4,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Wednesday",
+		"fcttext":"Cloudy and windy. High 37F. Winds NNE at 20 to 30 mph.",
+		"fcttext_metric":"Cloudy and windy. High 3C. Winds NNE at 30 to 50 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Cloudy and windy. Low 27F. Winds NNW at 20 to 30 mph.",
+		"fcttext_metric":"Cloudy skies. Windy in the evening. Low -3C. Winds NNW at 30 to 50 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":6,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Thursday",
+		"fcttext":"Partly cloudy skies, with gusty winds developing during the afternoon. High 36F. Winds NNW at 20 to 30 mph.",
+		"fcttext_metric":"Partly cloudy. Gusty winds in the afternoon. High 2C. Winds NNW at 25 to 40 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Thursday Night",
+		"fcttext":"Mostly clear skies early will become overcast later during the night. Low 22F. Winds NNW at 10 to 20 mph.",
+		"fcttext_metric":"Partly cloudy during the evening followed by cloudy skies overnight. Low -6C. Winds NNW at 15 to 30 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":8,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Friday",
+		"fcttext":"Partly to mostly cloudy. High 34F. Winds WNW at 10 to 20 mph.",
+		"fcttext_metric":"Partly to mostly cloudy. High 1C. Winds WNW at 15 to 30 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":9,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Friday Night",
+		"fcttext":"Partly cloudy skies. Low near 25F. Winds SW at 10 to 20 mph.",
+		"fcttext_metric":"Some clouds early will give way to generally clear conditions overnight. Low -4C. Winds SW at 15 to 30 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":10,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Saturday",
+		"fcttext":"Sunny early then partly cloudy and windy later in the day. High 44F. Winds W at 20 to 30 mph.",
+		"fcttext_metric":"Sunny early then partly cloudy and windy later in the day. High 7C. Winds W at 25 to 40 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":11,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Saturday Night",
+		"fcttext":"A mostly clear sky. Low 23F. Winds WNW at 10 to 20 mph.",
+		"fcttext_metric":"Clear skies. Low near -5C. Winds WNW at 15 to 30 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":12,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Sunday",
+		"fcttext":"Sunshine along with some cloudy intervals. High 33F. WNW winds shifting to ENE at 10 to 15 mph.",
+		"fcttext_metric":"A few clouds early, otherwise mostly sunny. High near 0C. WNW winds shifting to ENE at 15 to 25 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":13,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Partly cloudy skies. Low around 20F. Winds N at 10 to 15 mph.",
+		"fcttext_metric":"Partly cloudy. Low -7C. Winds N at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":14,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Monday",
+		"fcttext":"Mostly cloudy skies. High 33F. Winds N at 10 to 15 mph.",
+		"fcttext_metric":"Considerable cloudiness. High 1C. Winds N at 15 to 25 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":15,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Monday Night",
+		"fcttext":"Mostly cloudy early, then clearing later on. Low 19F. Winds N at 5 to 10 mph.",
+		"fcttext_metric":"Mostly cloudy early, then clearing later on. Low -7C. Winds N at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":16,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Tuesday",
+		"fcttext":"Sunshine and clouds mixed. High near 40F. Winds SW at 10 to 15 mph.",
+		"fcttext_metric":"Sunshine and clouds mixed. High 4C. Winds SW at 15 to 25 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":17,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Partly cloudy skies during the evening will give way to cloudy skies overnight. Low 26F. Winds SSW at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy early with increasing clouds overnight. Low -3C. Winds SSW at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":18,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Wednesday",
+		"fcttext":"Mostly cloudy early, then afternoon sunshine. High 39F. Winds N at 10 to 15 mph.",
+		"fcttext_metric":"Cloudy early, becoming mostly sunny in the afternoon. High 4C. Winds N at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":19,
+		"icon":"nt_snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_snow.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Snow showers. Low 27F. Winds SE at 5 to 10 mph. Chance of snow 40%. About one inch of snow expected.",
+		"fcttext_metric":"Snow showers. Low -3C. Winds SE at 10 to 15 km/h. Chance of snow 40%. 2-3cm of snow expected.",
+		"pop":"40"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1456189200",
+	"pretty":"7:00 PM CST on February 22, 2016",
+	"day":22,
+	"month":2,
+	"year":2016,
+	"yday":52,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"CST",
+	"tz_long":"America/Chicago"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"44",
+		"celsius":"7"
+		},
+		"low": {
+		"fahrenheit":"29",
+		"celsius":"-2"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "E",
+		"degrees": 95
+		},
+		"avewind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "E",
+		"degrees": 95
+		},
+		"avehumidity": 60,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1456275600",
+	"pretty":"7:00 PM CST on February 23, 2016",
+	"day":23,
+	"month":2,
+	"year":2016,
+	"yday":53,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"CST",
+	"tz_long":"America/Chicago"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"44",
+		"celsius":"7"
+		},
+		"low": {
+		"fahrenheit":"31",
+		"celsius":"-1"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "ENE",
+		"degrees": 69
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "ENE",
+		"degrees": 69
+		},
+		"avehumidity": 65,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1456362000",
+	"pretty":"7:00 PM CST on February 24, 2016",
+	"day":24,
+	"month":2,
+	"year":2016,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"CST",
+	"tz_long":"America/Chicago"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"37",
+		"celsius":"3"
+		},
+		"low": {
+		"fahrenheit":"27",
+		"celsius":"-3"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "NNE",
+		"degrees": 17
+		},
+		"avewind": {
+		"mph": 23,
+		"kph": 37,
+		"dir": "NNE",
+		"degrees": 17
+		},
+		"avehumidity": 71,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1456448400",
+	"pretty":"7:00 PM CST on February 25, 2016",
+	"day":25,
+	"month":2,
+	"year":2016,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"CST",
+	"tz_long":"America/Chicago"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"36",
+		"celsius":"2"
+		},
+		"low": {
+		"fahrenheit":"22",
+		"celsius":"-6"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "NNW",
+		"degrees": 327
+		},
+		"avewind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "NNW",
+		"degrees": 327
+		},
+		"avehumidity": 58,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1456534800",
+	"pretty":"7:00 PM CST on February 26, 2016",
+	"day":26,
+	"month":2,
+	"year":2016,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"CST",
+	"tz_long":"America/Chicago"
+},
+		"period":5,
+		"high": {
+		"fahrenheit":"34",
+		"celsius":"1"
+		},
+		"low": {
+		"fahrenheit":"25",
+		"celsius":"-4"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "WNW",
+		"degrees": 286
+		},
+		"avewind": {
+		"mph": 13,
+		"kph": 21,
+		"dir": "WNW",
+		"degrees": 286
+		},
+		"avehumidity": 55,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1456621200",
+	"pretty":"7:00 PM CST on February 27, 2016",
+	"day":27,
+	"month":2,
+	"year":2016,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"CST",
+	"tz_long":"America/Chicago"
+},
+		"period":6,
+		"high": {
+		"fahrenheit":"44",
+		"celsius":"7"
+		},
+		"low": {
+		"fahrenheit":"23",
+		"celsius":"-5"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "W",
+		"degrees": 259
+		},
+		"avewind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "W",
+		"degrees": 259
+		},
+		"avehumidity": 59,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1456707600",
+	"pretty":"7:00 PM CST on February 28, 2016",
+	"day":28,
+	"month":2,
+	"year":2016,
+	"yday":58,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"CST",
+	"tz_long":"America/Chicago"
+},
+		"period":7,
+		"high": {
+		"fahrenheit":"33",
+		"celsius":"1"
+		},
+		"low": {
+		"fahrenheit":"20",
+		"celsius":"-7"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "NW",
+		"degrees": 306
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "NW",
+		"degrees": 306
+		},
+		"avehumidity": 78,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1456794000",
+	"pretty":"7:00 PM CST on February 29, 2016",
+	"day":29,
+	"month":2,
+	"year":2016,
+	"yday":59,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"CST",
+	"tz_long":"America/Chicago"
+},
+		"period":8,
+		"high": {
+		"fahrenheit":"33",
+		"celsius":"1"
+		},
+		"low": {
+		"fahrenheit":"19",
+		"celsius":"-7"
+		},
+		"conditions":"Mostly Cloudy",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "N",
+		"degrees": 350
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "N",
+		"degrees": 350
+		},
+		"avehumidity": 60,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1456880400",
+	"pretty":"7:00 PM CST on March 01, 2016",
+	"day":1,
+	"month":3,
+	"year":2016,
+	"yday":60,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"CST",
+	"tz_long":"America/Chicago"
+},
+		"period":9,
+		"high": {
+		"fahrenheit":"40",
+		"celsius":"4"
+		},
+		"low": {
+		"fahrenheit":"26",
+		"celsius":"-3"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SW",
+		"degrees": 225
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "SW",
+		"degrees": 225
+		},
+		"avehumidity": 52,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1456966800",
+	"pretty":"7:00 PM CST on March 02, 2016",
+	"day":2,
+	"month":3,
+	"year":2016,
+	"yday":61,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"CST",
+	"tz_long":"America/Chicago"
+},
+		"period":10,
+		"high": {
+		"fahrenheit":"39",
+		"celsius":"4"
+		},
+		"low": {
+		"fahrenheit":"27",
+		"celsius":"-3"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.09,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.09,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.9,
+		"cm": 2.3
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.9,
+		"cm": 2.3
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "N",
+		"degrees": 351
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "N",
+		"degrees": 351
+		},
+		"avehumidity": 55,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}
+
+/*http://api.wunderground.com/api/e287f2a2cc57f2e1/forecast10day/q/60510.json*/

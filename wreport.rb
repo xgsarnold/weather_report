@@ -1,7 +1,7 @@
-require './current_conditions.rb'
-require './ten_day_forcast.rb'
-require './sunrise_sunset.rb'
-require './weather_alert.rb'
+require './condition.rb'
+require './forecast.rb'
+require './astronomy.rb'
+require './alert.rb'
 require './hurricane.rb'
 
 # require 'httparty'
@@ -12,4 +12,4 @@ require './hurricane.rb'
 #
 # reponse = HTTParty.get("http://api.wunderground.com/api/#{ENV[WUNDERGROUND_KEY]}/conditions/q/#{zip}"
 #
-# puts repsonse
+# puts "Location: #{response}["current_observation"][]"

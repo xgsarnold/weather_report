@@ -1,0 +1,46 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "alerts": 1
+  }
+	}
+		,"query_zone": "082",
+	"alerts": [
+		{
+		"type": "WIN",
+		"description": "Winter Storm Watch",
+		"date": "3:16 PM EST on February 22, 2016",
+		"date_epoch": "1456172160",
+		"expires": "4:00 PM EST on February 25, 2016",
+		"expires_epoch": "1456434000",
+		"tz_short":"EST",
+		"tz_long":"America/New_York",
+		"message": "\u000A...Winter Storm Watch in effect from Wednesday evening through\u000AThursday afternoon...\u000A\u000AThe National Weather Service in Detroit/Pontiac has issued a\u000AWinter Storm Watch...which is in effect from Wednesday evening\u000Athrough Thursday afternoon. \u000A\u000AHazardous weather...\u000A\u000A * snow...heavy at times...is possible Wednesday night through\u000A midday Thursday. Precipitation will start as rain\u000A Wednesday...then mix with and change to snow around sunset\u000A Wednesday.\u000A\u000A * Total snowfall accumulations of 4 to 8 inches are possible by\u000A Thursday afternoon.\u000A\u000A * Northeast winds approaching 30 mph could lead to extensive\u000A blowing and drifting of snow Wednesday night and Thursday. \u000A\u000AImpacts...\u000A\u000A * travel on area roadways may become hazardous by late Wednesday\u000A afternoon through Thursday. \u000A\u000A * Snow removal will be more challenging as snow character will\u000A be wet/heavy during Wednesday night...then become a more\u000A typical character by Thursday morning.\u000A\u000APrecautionary/preparedness actions...\u000A\u000A * a Winter Storm Watch means there is a potential for\u000Asignificant snow...sleet...or ice accumulations that may impact\u000Atravel. Continue to monitor the latest forecasts.\u000A\u000A * Prepare...plan...and stay informed.\u000A Visit http://go.USA.Gov/rr8\u000A\u000A\u000A\u000AMann\u000A\u000A\u000A\u000A",
+		"phenomena": "WS",
+		"significance": "A",
+		"ZONES": [
+		{
+		"state":"MI",
+		"ZONE":"076"
+		}
+		,
+		{
+		"state":"MI",
+		"ZONE":"082"
+		}
+		,
+		{
+		"state":"MI",
+		"ZONE":"083"
+		}
+		],
+		"StormBased": {
+		}
+		}
+	]
+}
+
+/*http://api.wunderground.com/api/e287f2a2cc57f2e1/alerts/q/49236.json*/
