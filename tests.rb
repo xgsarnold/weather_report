@@ -37,7 +37,15 @@ class WeatherTest < Minitest::Test
     assert_equal "17:34", a.sunset
   end
 
+  def test_05_return_any_current_weather_alerts
+    a = Alert.new(27704)
+    assert a.alert
+  end
 
+  def test_06_return_active_hurricanes
+    h = Hurricane.new()
+    assert h.storms
+  end
 end
 
 
