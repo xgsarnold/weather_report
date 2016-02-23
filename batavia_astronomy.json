@@ -7,7 +7,7 @@
   "astronomy": 1
   }
 	}
-		,	"moon_phase": {
+	,	"moon_phase": {
 		"percentIlluminated":"100",
 		"ageOfMoon":"15",
 		"phaseofMoon":"Full",

@@ -31,6 +31,15 @@ class WeatherTest < Minitest::Test
     assert f.forecast_ten_days
   end
 
+  def test_04_return_sunrise_and_sunset_times
+    a = Astronomy.new(27704)
+    assert_equal "6:39", a.sunrise
+    assert_equal "17:34", a.sunset
+  end
+
+
+end
+
 
 
   # $mock_inputs.clear
@@ -38,5 +47,3 @@ class WeatherTest < Minitest::Test
   # $mock_inputs << "Down"
   # $mock_inputs << "A4"
   # $mock_inputs << "Down"
-
-end
